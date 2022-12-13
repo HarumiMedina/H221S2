@@ -33,6 +33,7 @@
 
 
 /*Para el menu*/ 
+
 const hamburguer = document.querySelector('.hamburguer')
 const menu = document.querySelector('.menu-navegacion')
 
@@ -73,14 +74,14 @@ App.prototype.processingButton = function(event) {
 
     btn.dataset.button == "button-prev" ? prevAction(leftPosition,slickWidth,track) : nextAction(leftPosition,trackWidth,listWidth,slickWidth,track)
 }
-
+//para correr hacia atras
 let prevAction = (leftPosition,slickWidth,track) => {
     if(leftPosition > 0) {
         console.log("entro 2")
         track.style.left = `${-1 * (leftPosition - slickWidth)}px`;
     }
 }
-
+//para correr hacia adelante
 let nextAction = (leftPosition,trackWidth,listWidth,slickWidth,track) => {
     if(leftPosition < (trackWidth - listWidth)) {
         track.style.left = `${-1 * (leftPosition + slickWidth)}px`;
