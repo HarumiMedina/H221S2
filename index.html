@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <title>Manuel Gonzales Prada</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="resources/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="resources/css/styles.css" />
+    <link rel="stylesheet" href="resources/css/estilos.css" />
     <link rel="stylesheet" href="static/estilos.css">
     <link rel="stylesheet" href="static/style.css">
 </head>
@@ -386,23 +396,56 @@
                 <h2 class="subtitulo">Como Llegar</h2>
                 <hr>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31099.53673909515!2d-76.338538289439!3d-13.007495233642553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910ffa71fc290371%3A0xcc8b589431800848!2sRoma%2C%20Nuevo%20Imperial%2015725!5e0!3m2!1ses!2spe!4v1669665819200!5m2!1ses!2spe" 
-                     width="1385" height="500" style="border:50;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                     width="1200" height="500" style="border:50;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
     <!--CONTACTENOS-->
-    <div class="container-form">
-        <div class="info-form">
-            <h2>Contactanos</h2>
-            <a href="#"><i class="fa fa-phone"></i> Cel: 987654321</a>
-            <a href="#"><i class="fa fa-envelope"></i> colegioMGP@gmail.com</a>
-            <a href="#"><i class="fa fa-map-marked"></i> Roma, Cañete</a>
-        </div>
-        <form action="#" autocomplete="off">
-            <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
-            <input type="emal" name="email" placeholder="Tu Email" class="campo">
-            <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
-            <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
-        </form>
-    </div>
+    <div id="overview">
+        <section class="order" id="order">
+          <h1 class="heading"><span>CONSULTAS</h1>
+          <div id="form" class="row">
+            <form class="form">
+              <div class="inputBox">
+                <input
+                  id="NOMCON"
+                  placeholder="Nombre"
+                  type="text"
+                  class="form-control"
+                />
+                <input
+                  id="EMACON"
+                  placeholder="Correo"
+                  type="text"
+                  class="form-control"
+                />
+              </div>
+              <div class="inputBox">
+                <input
+                  id="CELUCON"
+                  placeholder="Celular"
+                  type="text"
+                  class="form-control"
+                />
+                <input
+                  id="ASUNCON"
+                  placeholder="Asunto"
+                  type="text"
+                  class="form-control"
+                />
+              </div>
+              <textarea
+                id="MSGCON"
+                placeholder="Mensaje"
+                cols="30"
+                rows="10"
+                class="form-control"
+              ></textarea>
+              <button id="btnCrear" type="submit" class="btn btn-secondary">
+                Enviar
+              </button>
+            </form>
+          </div>
+        </section>
+      </div>
 </main>
 
     <script src="script.js"></script>
