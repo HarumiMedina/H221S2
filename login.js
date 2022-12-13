@@ -7,7 +7,7 @@ const connection = mysql.createConnection({
 	host     : 'localhost',
 	user     : 'root',
 	password : 'root',
-	database : 'login-socket'
+	database : 'IE'
 });
 
 const app = express();
@@ -74,4 +74,4 @@ app.get('/home', function(request, response) {
 	response.end();
 });
 
-app.listen(3000);
+app.listen(3001);
