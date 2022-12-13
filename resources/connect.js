@@ -21,7 +21,7 @@ conexion.connect(function (error) {
     }
 });
 
-const puerto = process.env.PUERTO || 3001;
+const puerto = process.env.PUERTO || 3002;
 
 app.listen(puerto, function () {
   console.log("Servidor funcionando en puerto: " + puerto);
