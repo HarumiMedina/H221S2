@@ -1,27 +1,25 @@
 {
-  "name": "login",
+  "name": "h221s233",
   "version": "1.0.0",
-  "description": "<img src=\"https://i0.wp.com/www.configuroweb.com/wp-content/uploads/2022/05/Inicio-de-sesion-con-Node.js-Express-y-MySQL-1.png?resize=800%2C500&ssl=1\">",
+  "description": "",
   "main": "login.js",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "express-session": "^1.17.3",
-    "mysql": "^2.18.1",
-    "nodemon": "^2.0.20"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HarumiMedina/H221S2.git"
+    "url": "git+https://github.com/HarumiMedina/H221S233.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HarumiMedina/H221S2/issues"
+    "url": "https://github.com/HarumiMedina/H221S233/issues"
   },
-  "homepage": "https://github.com/HarumiMedina/H221S2#readme",
-  "keywords": []
+  "homepage": "https://github.com/HarumiMedina/H221S233#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {}
 }

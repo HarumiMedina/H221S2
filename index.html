@@ -399,56 +399,26 @@
                      width="1200" height="500" style="border:50;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
     <!--CONTACTENOS-->
-    <div id="overview">
-        <section class="order" id="order">
-          <h1 class="heading"><span>CONSULTAS</h1>
-          <div id="form" class="row">
-            <form class="form">
-              <div class="inputBox">
-                <input
-                  id="NOMCON"
-                  placeholder="Nombre"
-                  type="text"
-                  class="form-control"
-                />
-                <input
-                  id="EMACON"
-                  placeholder="Correo"
-                  type="text"
-                  class="form-control"
-                />
-              </div>
-              <div class="inputBox">
-                <input
-                  id="CELUCON"
-                  placeholder="Celular"
-                  type="text"
-                  class="form-control"
-                />
-                <input
-                  id="ASUNCON"
-                  placeholder="Asunto"
-                  type="text"
-                  class="form-control"
-                />
-              </div>
-              <textarea
-                id="MSGCON"
-                placeholder="Mensaje"
-                cols="30"
-                rows="10"
-                class="form-control"
-              ></textarea>
-              <button id="btnCrear" type="submit" class="btn btn-secondary">
-                Enviar
-              </button>
-            </form>
-          </div>
-        </section>
+    <div id="container_formulario">
+        <div class="title_form">
+          <h2>Consultas</h2>
+        </div>
+        <form class="form">
+          <input id="DOCINFO" placeholder="DNI" type="text" class="form-control"/>
+          <input id="APENOMINFO" placeholder="Apellidos y Nombres" type="text" class="form-control"/>
+          <input id="EMAINFO" placeholder="Gmail" type="text" class="form-control"/>
+          <input id="CELINFO" placeholder="Celular" type="text" class="form-control"/>
+          <textarea id="ASUINFO" placeholder="Mensaje" cols="30" rows="10" class="form-control"></textarea>
+          <button id="btnCrear" type="submit" class="btn btn-secondary">
+            Enviar 
+          </button>
+        </form> 
       </div>
 </main>
 
-    <script src="script.js"></script>
+    <script src="static/script.js"></script>
+    <script src="/resources/registro.js"></script>
+    
 
 </body>
 
